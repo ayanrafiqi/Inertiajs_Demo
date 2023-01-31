@@ -1,10 +1,9 @@
 import React from "react";
 
-export default function Welcome({ user }) {
+export default function Welcome({ name }) {
     return (
         <div>
-            <h1>Welcome</h1>
-            <p>Hello {user.name}, welcome to Inertia </p>
+            <h1>Hello {name}, Welcome to Inertia </h1>
         </div>
     );
 }
